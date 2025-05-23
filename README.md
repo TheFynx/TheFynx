@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hi, I'm TheFynx 👋
+
+**Platform Engineer** | Go · DevOps · TypeScript · Terraform · Pulumi
+
+---
+
+🚀 I build reliable, scalable platforms with a focus on cloud, automation, and developer experience.
+
+### 🛠️ My Toolbox
+- **Languages:** Go, TypeScript
+- **Cloud & Infra:** Terraform, Pulumi, DevOps automation
+
+### ⚡ Featured Projects
+- [Ontap](https://github.com/fynxlabs/ontap) — Cloud-native platform tooling
+- [RWR](https://github.com/fynxlabs/rwr) — Reliable workload runner
+
+---
 
 <!--
-**TheFynx/TheFynx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Pinned Projects:**  
+- Ontap ([fynxlabs/ontap](https://github.com/fynxlabs/ontap))  
+- RWR ([fynxlabs/rwr](https://github.com/fynxlabs/rwr))  
+-->
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!--
+**Contact & Links:**  
+Feel free to reach out or check out my pinned projects!
 -->
