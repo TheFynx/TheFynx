@@ -11,8 +11,8 @@
 - **Cloud & Infra:** Terraform, Pulumi, DevOps automation
 
 ### ⚡ Featured Projects
-- [Ontap](https://github.com/fynxlabs/ontap) — Cloud-native platform tooling
-- [RWR](https://github.com/fynxlabs/rwr) — Reliable workload runner
+- [Ontap](https://github.com/fynxlabs/ontap) — OpenAPI Spec -> CLI
+- [RWR](https://github.com/fynxlabs/rwr) — Rinse, Wash, and Repeat - Distro Hopper's Configuration Management
 
 ---
 
