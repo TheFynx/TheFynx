@@ -25,20 +25,16 @@ evaluated, the apply is blocked, never waved through.
 
 ### [rwr](https://github.com/fynxlabs/rwr): Rinse, Wash, Repeat
 
-Configuration management for distro hoppers. Declare your workstation once —
-packages, dotfiles, templates, services, users, fonts, repos — and rebuild it
+Configuration management for distro hoppers. Declare your workstation once
+(packages, dotfiles, templates, services, users, fonts, repos) and rebuild it
 anywhere, because reinstalling shouldn't mean rediscovering how you had
 everything set up.
 
 Blueprints in **YAML, JSON, TOML, or CUE**, with per-item profiles
 (`desktop`, `laptop`, `work`) and Go templating. Point it at a local tree, a
 GitHub repo URL, or an `owner/repo` shorthand and run. One binary, one
-manifest, many machines: Arch and friends, Debian/Ubuntu, macOS, Windows —
+manifest, many machines: Arch and friends, Debian/Ubuntu, macOS, Windows,
 across pacman, AUR helpers, brew, flatpak, cargo, and more.
-
-Dry-run shows the full plan before anything touches the system; live runs get
-a terminal dashboard with per-provider progress, and headless/CI output stays
-plain and stable.
 
 ### [ontap](https://github.com/fynxlabs/ontap): OpenAPI spec -> CLI
 
