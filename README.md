@@ -1,6 +1,6 @@
 # Hi, I'm Levi 👋
 
-**Platform Engineer.** I build infrastructure tooling that teams run themselves.
+Platform engineer. I build infrastructure tooling that teams run themselves.
 
 `Go` · `Terraform` · `Pulumi` · `OpenTofu` · `TypeScript` · `AWS` / `GCP` / `Azure`
 
@@ -8,38 +8,27 @@
 
 ## 🔨 What I'm building
 
-### [reeve](https://github.com/reeveops/reeve): PR-native GitOps orchestrator
+### [reeve](https://github.com/reeveops/reeve)
 
-A single Go binary you drop into your CI. It previews IaC changes on every PR,
-gates `/reeve apply` behind approvals, CODEOWNERS, required checks, per-stack
-locks and freeze windows, and detects drift on a schedule.
+PR-native GitOps orchestrator. One Go binary in your CI. Previews IaC changes on every PR, gates `/reeve apply` behind approvals, CODEOWNERS, required checks, per-stack locks, and freeze windows. Detects drift on a schedule.
 
-Works with **Pulumi, Terraform and OpenTofu**. State, locks and audit records go
-to *your* bucket (S3 / GCS / Azure Blob / R2 / local). Credentials are
-short-lived and federated: AWS OIDC, GCP WIF, Azure federated, GitHub App.
+Supports Pulumi, Terraform, and OpenTofu. State, locks, and audit records go to your bucket (S3, GCS, Azure Blob, R2, or local filesystem). Credentials are short-lived and federated.
 
-> No control plane. No vendor backend. No telemetry. No account. MIT, permanently.
+> No control plane. No vendor backend. No telemetry. No account. MIT.
 
-The design rule everything follows: **gates fail closed.** If a check cannot be
-evaluated, the apply is blocked, never waved through.
+Gates fail closed. If a check cannot be evaluated, the apply is blocked.
 
-### [rwr](https://github.com/fynxlabs/rwr): Rinse, Wash, Repeat
+### [rwr](https://github.com/fynxlabs/rwr)
 
-Configuration management for distro hoppers. Declare your workstation once
-(packages, dotfiles, templates, services, users, fonts, repos) and rebuild it
-anywhere, because reinstalling shouldn't mean rediscovering how you had
-everything set up.
+Rinse, Wash, Repeat. Workstation configuration management for distro hoppers. Declare packages, dotfiles, templates, services, users, fonts, and repos once. Rebuild anywhere.
 
-Blueprints in **YAML, JSON, TOML, or CUE**, with per-item profiles
-(`desktop`, `laptop`, `work`) and Go templating. Point it at a local tree, a
-GitHub repo URL, or an `owner/repo` shorthand and run. One binary, one
-manifest, many machines: Arch and friends, Debian/Ubuntu, macOS, Windows,
-across pacman, AUR helpers, brew, flatpak, cargo, and more.
+Blueprints in YAML, JSON, TOML, or CUE with per-item profiles (`desktop`, `laptop`, `work`) and Go templating. Point it at a local tree, a GitHub repo URL, or `owner/repo` shorthand. One binary, one manifest, many machines.
 
-### [ontap](https://github.com/fynxlabs/ontap): OpenAPI spec -> CLI
+Supports Arch, Debian/Ubuntu, macOS, and Windows across pacman, AUR helpers, brew, flatpak, cargo, and more.
 
-Point it at an OpenAPI spec, get a working command-line client. No codegen step
-to maintain, no hand-written wrapper drifting from the API it wraps.
+### [ontap](https://github.com/fynxlabs/ontap)
+
+OpenAPI spec to CLI. Point it at a spec, get a working command-line client. No codegen to maintain. No hand-written wrapper drifting from the API.
 
 ---
 
@@ -47,17 +36,17 @@ to maintain, no hand-written wrapper drifting from the API it wraps.
 
 | | |
 |---|---|
-| **Languages** | Go, TypeScript, Shell, Ruby |
-| **IaC** | Terraform, OpenTofu, Pulumi |
-| **Cloud** | AWS, GCP, Azure |
-| **CI/CD** | GitHub Actions, GitOps workflows |
+| Languages | Go, TypeScript, Shell, Ruby |
+| IaC | Terraform, OpenTofu, Pulumi |
+| Cloud | AWS, GCP, Azure |
+| CI/CD | GitHub Actions, GitOps workflows |
 
 ## 🧭 How I build
 
-- **Fail closed.** Ambiguity blocks; it never silently permits.
-- **You own your data.** Self-hosted by default, no phone-home.
+- **Fail closed.** Ambiguity blocks, never silently permits.
+- **You own your data.** Self-hosted by default. No phone-home.
 - **Explain yourself.** When a rule fires, the tool says exactly why.
 
 ---
 
-📫 Find me on [GitHub](https://github.com/TheFynx) · Org: [Freehold Digital](https://github.com/freehold-digital)
+📫 [GitHub](https://github.com/TheFynx) · [Freehold Digital](https://github.com/freehold-digital)
