@@ -60,4 +60,4 @@ to maintain, no hand-written wrapper drifting from the API it wraps.
 
 ---
 
-📫 Find me on [GitHub](https://github.com/TheFynx) · Labs org: [fynxlabs](https://github.com/fynxlabs)
+📫 Find me on [GitHub](https://github.com/TheFynx) · Org: [Freehold Digital](https://github.com/freehold-digital)
